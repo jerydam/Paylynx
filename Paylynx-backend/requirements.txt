@@ -4,3 +4,4 @@ python-dotenv==1.0.1
 web3==7.6.0
 pydantic==2.10.3
 google-genai==1.0.0
+supabase
