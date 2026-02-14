@@ -39,7 +39,7 @@ export const ChatPage: React.FC = () => {
   } | null>(null);
   
   const messagesEndRef = useRef<HTMLDivElement>(null);
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://paylynx.onrender.com';
 
   // Fetch saved accounts
   useEffect(() => {

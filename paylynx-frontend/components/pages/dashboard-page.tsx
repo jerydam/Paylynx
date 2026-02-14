@@ -113,7 +113,7 @@ export const DashboardPage: React.FC<DashboardProps> = ({ onOpenChat }) => {
   const [isLoadingPolicy, setIsLoadingPolicy] = useState(false);
   const [isSavingPolicy, setIsSavingPolicy] = useState(false);
 
-  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'http://127.0.0.1:8000';
+  const API_BASE_URL = process.env.NEXT_PUBLIC_API_URL || 'https://paylynx.onrender.com';
   const USDC_ADDRESS = '0x20c0000000000000000000000000000000000000' as const;
   
   const publicClient = createPublicClient({
